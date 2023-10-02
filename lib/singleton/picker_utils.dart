@@ -82,7 +82,8 @@ class PickerUtils {
         await checkPermission(type: type);
     bool isGranted = status.containsValue(PermissionStatus.granted);
     bool isLimited = status.containsValue(PermissionStatus.limited);
-    bool hasAccess = isGranted || isLimited;
+    // bool hasAccess = isGranted || isLimited;
+    bool hasAccess = isGranted || isLimited || status.isEmpty;
     if (hasAccess) {
       if (filePaths.value.length < maxLength) {
         switch (type) {
