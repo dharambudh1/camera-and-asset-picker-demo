@@ -1,16 +1,12 @@
-# camera_and_asset_picker
+# Camera & Asset Picker Demo
 
-A new Flutter project.
+## About this app:
 
-## Getting Started
+This is an example application showcasing how to select images from both the camera and the gallery. Users have the option to select either a single image or multiple images. 
 
-This project is a starting point for a Flutter application.
+When a user opts for taking a photo using the camera, they can capture one picture at a time. If a user selects an image from the gallery, they can choose multiple images simultaneously. 
 
-A few resources to get you started if this is your first Flutter project:
+Any picture, whether taken or chosen, will first go through an image cropping process before being displayed in the main home screen's grid view.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Preview
+![alt text](https://i.postimg.cc/T3kztCxD/imgonline-com-ua-twotoone-ZOo-Fuwh-HHiz91.png "img")
